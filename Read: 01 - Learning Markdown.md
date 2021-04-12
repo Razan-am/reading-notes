@@ -23,17 +23,17 @@ Markdown is a method that used on the web to writing and styling text such as it
  3. (* *) symbols used for making the text in italic style
 
 - Lists
-* Unordered without number only symbols 
+  * Unordered without number only symbols 
 
-  (*  - )
+    (*  - )
 
-* Ordered contain number to order
+  * Ordered contain number to order
 
-  (1
-   2
-   3
-   4
-   5....)
+    (1
+     2
+     3
+     4
+     5....)
 
 
 - Images

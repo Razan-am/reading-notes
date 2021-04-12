@@ -56,6 +56,6 @@ Markdown is a method that used on the web to writing and styling text such as it
   
   **References:**
 
-@GITHUB / [GitHub](https://guides.github.com/features/mastering-markdown/)
+    @GITHUB / [GitHub](https://guides.github.com/features/mastering-markdown/)
   
   

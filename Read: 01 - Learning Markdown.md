@@ -1,6 +1,8 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="350" height="250" />
 
+
+
 # ***Mastering Markdown***
 
 
@@ -10,10 +12,14 @@
 
 
 * what is growth Markdown ?
+ 
 
 Markdown is a method that used on the web to writing and styling text such as it used on the GitHub platform and its considered as an easy-to-use syntax for styling all forms of writing.It providing you the controling in the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown.
 
+
 > Markdown is considered as an non-alphabetic characters following with the text or images .
+
+
 
 #### Markdown it's divided to many writing and formatting syntax:
 

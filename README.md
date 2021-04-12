@@ -29,7 +29,7 @@ So basically growth mindset is all about keep growing in whatever we facing or c
 2. less fear
 3. challenging my self to descover it more.
 
-**Refrences:**
+**References:**
 
 @WORK LIFE / [WORK LIFE](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
 

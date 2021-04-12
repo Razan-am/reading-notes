@@ -57,11 +57,11 @@
 
  **To sign it up follow these steps:**
  
-   ***```Type the following into Terminal or Command Line:***```
+   ***```Type the following into Terminal or Command Line:```***
    `< git config --global user.name "Jane Smith">`
     `<git config --global user.email "example@email.com">`
 
-  ***```To confirm that you have the correct settings, enter the following commands :***```
+  ***``` To confirm that you have the correct settings, enter the following commands :```***
    `<git config --global user.name (should return Jane Smith)>`
    `<git config --global user.email (should return example@email.com)>`
 
@@ -92,7 +92,7 @@
 - man git-command
 ----------------------------------
 
-###### ***```Setting up a Git Repository;***```
+###### ***```Setting up a Git Repository;```***
 
 1. **Importing** :To import an existing project or directory into Git through these steps :
 
@@ -120,7 +120,7 @@ Example:
 
 -----------------
 
- ###### ***```Workflow***```
+ ###### ***```Workflow```***
 
  1. **Local Repository Structure** :The local Git repository has three components:
 
@@ -167,7 +167,7 @@ $ git commit -a
 -```git stash``` :This command temporarily removes changes and hides them, giving you a clean working directory. and when you want to continue working on the changes use the ```git stash apply```
 
 -------------------------
-###### ***```Remote Repositories***```
+###### ***```Remote Repositories```***
 
 **It's provide the ability to work in versions of a project residing online or on a network on Git projects**
 

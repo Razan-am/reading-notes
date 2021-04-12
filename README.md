@@ -4,6 +4,6 @@
 
 | name of the content |                The links |
 | ------------------- |               -----------|
-| Lab01               |[Lab01] (https://razan-am.github.io/reading-notes/growth)|
+| Lab01               |[Lab01](https://razan-am.github.io/reading-notes/growth)|
 | Read01              |[Read01](https://razan-am.github.io/reading-notes/Read:%2001%20-%20Learning%20Markdown)|
 | Read02              |[Read02](https://razan-am.github.io/reading-notes/Read:%2002) |

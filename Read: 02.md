@@ -4,28 +4,28 @@
 
 ......................................................................
 
- *** ``` The contents: ``` ***
+ ***``` The contents: ```***
 
-### **  Version Control: **
+### **Version Control:**
    its a system that contain all the changes of a project by creating many versions depending in the number of changes of that project and provide us the ability to can revert a file or project to a previous version, track modifications and modifying individuals, and compare changes. Through it mistakes with files can easily be rectified with Version Control System (VCS).
  
-** - It's divided to : **
+**- It's divided to :**
 
  1. ***Centralized Version Control***: its a local version control system that entails one database on your hard disk that stores changes to files.
 
 
- 2. *** Distributed Version Control*** : (DVCS) allows clients to create mirrored repositories. These data backups can be easily be placed on the server to replace any lost information. So programmers working in teams can collaborate with each other in various ways to complete a joint project.But there is amain issue about DVCS it's  the server as a single point of failure. If a CVS goes down, collaborators cannot work with each other on a file or save changes and new versions.
+ 2. ***Distributed Version Control*** : (DVCS) allows clients to create mirrored repositories. These data backups can be easily be placed on the server to replace any lost information. So programmers working in teams can collaborate with each other in various ways to complete a joint project.But there is amain issue about DVCS it's  the server as a single point of failure. If a CVS goes down, collaborators cannot work with each other on a file or save changes and new versions.
 
 
 
 
 
 - So Git is ;
- *** ```Git is an system that contain: *** ```
+ ***```Git is an system that contain:```***
 
 **Snapshots**: Git is a Distributed Version Control System  that stores data in a file system made up of snapshots of any changes you do in the projects and stores a reference to it.
 
-** local operation**: Git relies on local operations allowing to work in any situation because a project’s history resides on the local disk and not depends on the server .
+**local operation**: Git relies on local operations allowing to work in any situation because a project’s history resides on the local disk and not depends on the server .
 
 **Tracking Changes**:Any changing that applied to any file Git will be tracking it and be able to always detect file corruption or loss of information in transit.
 
@@ -40,11 +40,11 @@
 3. Staged:Flagged a file’s changed version to be committed in the next snapshot
 
 ------------------------
-###### *** ```To start using Git you should know this upfollowing parts ; *** ```
+###### ***```To start using Git you should know this upfollowing parts```***
 
 1. You shave to download Git to you're computer
 
-2. *** Graphical Clients***:basically its about an inherent Graphical User Interface (GUI) tools that git include it to the user, also users can use  also utilize third-party tools created for particular platforms.
+2. ***Graphical Clients***:basically its about an inherent Graphical User Interface (GUI) tools that git include it to the user, also users can use  also utilize third-party tools created for particular platforms.
 
 
 3. ***Initial Customization***: After installing Git you should perform some customization steps, which should only need to be completed once on any machine:
@@ -57,11 +57,11 @@
 
  **To sign it up follow these steps:**
  
-   *** ```Type the following into Terminal or Command Line: *** ```
+   ***```Type the following into Terminal or Command Line:***```
    `< git config --global user.name "Jane Smith">`
     `<git config --global user.email "example@email.com">`
 
-  *** ```To confirm that you have the correct settings, enter the following commands : *** ```
+  ***```To confirm that you have the correct settings, enter the following commands :***```
    `<git config --global user.name (should return Jane Smith)>`
    `<git config --global user.email (should return example@email.com)>`
 
@@ -92,7 +92,7 @@
 - man git-command
 ----------------------------------
 
-###### *** ```Setting up a Git Repository;*** ```
+###### ***```Setting up a Git Repository;***```
 
 1. **Importing** :To import an existing project or directory into Git through these steps :
 
@@ -120,7 +120,7 @@ Example:
 
 -----------------
 
- ###### *** ```Workflow *** ```
+ ###### ***```Workflow***```
 
  1. **Local Repository Structure** :The local Git repository has three components:
 
@@ -167,15 +167,15 @@ $ git commit -a
 -```git stash``` :This command temporarily removes changes and hides them, giving you a clean working directory. and when you want to continue working on the changes use the ```git stash apply```
 
 -------------------------
-###### *** ```Remote Repositories *** ```
+###### ***```Remote Repositories***```
 
 **It's provide the ability to work in versions of a project residing online or on a network on Git projects**
 
 1. **Cloned Repositories** : Git will automatically give the name “origin” to the server from which you cloned and the name “master” to your local branch.
 
 2. **Seeing Your Remotes** : 
-- ```git remote command``` you can view the short names, such as “origin,” of all specified remote handles.
-- ```git remote -v ``` by using it you can view all the remote URLs next to their corresponding short names.
+-```git remote command``` you can view the short names, such as “origin,” of all specified remote handles.
+-```git remote -v ``` by using it you can view all the remote URLs next to their corresponding short names.
 
 
 - Example:

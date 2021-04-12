@@ -13,16 +13,26 @@ So basically growth mindset is all about keep growing in whatever we facing or c
 
 * Quote about growth mindset :
 > A growth mindset is synonymous with a love of learning.
-> 
+
+
+
 
 
 ``` So having and living with growth mindset  push us to do and try many different new things that we dont have to be knowing it before. ```
+
+
+
 
 #### ***3 reminders to my self to keep us in growth mindset:***
 
 1. It will leads to have a better lifestyle
 2. less fear
 3. challenging my self to descover it more.
+
+**Refrences:**
+
+@WORK LIFE / [WORK LIFE](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
+
 
 
 

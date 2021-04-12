@@ -1,0 +1,84 @@
+# **Git**
+
+###A Comprehensive Guide
+
+The contents: 
+
+Version Control:
+its a system that contain all the changes of a project by creating many versions depending in the number of changes of that project and provide us the ability to can revert a file or project to a previous version, track modifications and modifying individuals, and compare changes. Through it mistakes with files can easily be rectified with Version Control System (VCS).
+ 
+It's divided to :
+1- Centralized Version Control: its a local version control system that entails one database on your hard disk that stores changes to files.
+
+2- Distributed Version Control : (DVCS) allows clients to create mirrored repositories. These data backups can be easily be placed on the server to replace any lost information. So programmers working in teams can collaborate with each other in various ways to complete a joint project.But there is amain issue about DVCS it's  the server as a single point of failure. If a CVS goes down, collaborators cannot work with each other on a file or save changes and new versions.
+
+
+
+So Git is ;
+Git is an system that contain:
+
+Snapshots: Git is a Distributed Version Control System that stores data in a file system made up of snapshots of any changes you do in the projects and stores a reference to it.
+
+local operation: Git relies on local operations allowing to work in any situation because a project’s history resides on the local disk and not depends on the server .
+
+Tracking Changes:Any changing that applied to any file Git will be tracking it and be able to always detect file corruption or loss of information in transit.
+
+Loss of Data: Becouse of how Git worked it help in minimize the possibility of irreversible damage to files, such as accidentally lost data.
+
+States:Files in Git can reside in three main states: committed, modified and staged.
+
+1- Committed :Data is securely stored in a local database
+
+2- Modified:File has been changed but not committed to the database
+
+3- Staged:Flagged a file’s changed version to be committed in the next snapshot
+
+
+To start using Git you should know this upfollowing parts ;
+
+1- You shave to download Git to you're computer
+
+2- Graphical Clients:basically its about an inherent Graphical User Interface (GUI) tools that git include it to the user, also users can use  also utilize third-party tools created for particular platforms.
+
+3-Initial Customization: After installing Git you should perform some customization steps, which should only need to be completed once on any machine.
+       1-Configuration of Variables:to control aspects of Git’s operation and looks.
+2-Identity Setting:users should immediately set the user name and email address.
+
+ To sign it up follow these steps:
+ 
+  Type the following into Terminal or Command Line:
+    git config --global user.name "Jane Smith"
+    git config --global user.email "example@email.com"
+
+  To confirm that you have the correct settings, enter the following 
+   command:
+   git config --global user.name (should return Jane Smith)
+   git config --global user.email (should return example@email.com)
+
+*By using the –global option, these Git settings apply to anything on the system. To use different identity settings for a specific project, change the working directory to the desired local Git repository and repeat the steps above without using –global.
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+By Jenni Choi for Udemy

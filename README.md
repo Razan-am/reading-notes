@@ -30,7 +30,7 @@ So basically growth mindset is all about keep growing in whatever we facing or c
 3. challenging my self to discover it more.
 
 
-[Read01](Read: 01 - Learning Markdown.md)
+[Read01](https://razan-am.github.io/reading-notes/Read:%2001%20-%20Learning%20Markdown)
 
 
 **References:**

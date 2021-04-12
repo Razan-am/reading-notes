@@ -1,4 +1,4 @@
-#### ** Hello , i'm Razan alamleh and i had a bachelor degree in architecture engineering , this is my GitHub account : [razan-am](https://github.com/Razan-am)**
+#### **Hello , i'm Razan alamleh and i had a bachelor degree in architecture engineering , this is my GitHub account : [razan-am](https://github.com/Razan-am)**
 
 ###### **Table of content :**
 

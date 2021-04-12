@@ -1,6 +1,10 @@
 # ***Mastering Markdown***
 
+
+
 ### Introduction to growth mindset:
+
+
 
 * what is growth Markdown ?
 
@@ -45,5 +49,10 @@ Markdown is a method that used on the web to writing and styling text such as it
  
 - Inline code
   Format: ( `< addr >` )
+  
+  
+  **References:**
+
+@GITHUB / [GitHub](https://guides.github.com/features/mastering-markdown/)
   
   

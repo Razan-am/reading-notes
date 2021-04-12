@@ -5,7 +5,7 @@
 
 * what is growth mindset ?
     
-So basically growth mindset is all about keep growing in whatever we facing or challenging.And what i mean with growing its about beliving that the one's have the ability to be developed by giving the right amount of efforts in whatever they are facing,and they will see the result for that in the end.So  this mindset its like an equation if you give a rea effort in something you will achive what are you looking for in the end and its not depends only in intelligence and talent as they are the only ways to success like in fixed mindset.
+So basically growth mindset is all about keep growing in whatever we facing or challenging.And what i mean with growing its about believing that the one's have the ability to be developed by giving the right amount of efforts in whatever they are facing,and they will see the result for that in the end.So  this mindset its like an equation if you give a real effort in something you will achieve what are you looking for in the end and its not depends only in intelligence and talent as they are the only ways to success like in fixed mindset.
 
  ``` Here’s a highlighting to the differences between a fixed and a growth mindset ```
  
@@ -27,7 +27,7 @@ So basically growth mindset is all about keep growing in whatever we facing or c
 
 1. It will leads to have a better lifestyle
 2. less fear
-3. challenging my self to descover it more.
+3. challenging my self to discover it more.
 
 **References:**
 

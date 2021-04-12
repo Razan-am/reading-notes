@@ -21,6 +21,8 @@
 
 
 - So Git is ;
+
+
  ***```Git is an system that contain:```***
 
 **Snapshots**: Git is a Distributed Version Control System  that stores data in a file system made up of snapshots of any changes you do in the projects and stores a reference to it.
@@ -58,11 +60,17 @@
  **To sign it up follow these steps:**
  
    ***```Type the following into Terminal or Command Line:```***
+   
+   
    `< git config --global user.name "Jane Smith">`
+   
     `<git config --global user.email "example@email.com">`
 
   ***``` To confirm that you have the correct settings, enter the following commands :```***
+  
+  
    `<git config --global user.name (should return Jane Smith)>`
+   
    `<git config --global user.email (should return example@email.com)>`
 
 -------------------------------------------
@@ -98,6 +106,7 @@
 
 - Switch to the target project’s directory
 Example:
+
 `<$ cd test (cd = change directory)>`
 
 - Use the git init command
@@ -110,11 +119,16 @@ Example:
 ------------------------
 
 - To start tracking these repository files, perform an initial commit by typing the following:
+
+
 `<$ git add *.c>`
+
 `<$ git add LICENSE>`
+
 `<$ git commit -m “any message here”>`
 
 2. **Cloning** : To create a copy of an existing Git repository from a particular server by this :
+
 
  `<$ git clone https://github.com/test>`
 
@@ -125,42 +139,57 @@ Example:
  1. **Local Repository Structure** :The local Git repository has three components:
 
 - Working Directory: The actual files reside here.
+
 - Index: The area used for staging
+
 - Head: Points to the most recent commit
 
 2. **Saving Changes** : There is two types :
+ 
 - Tracked :Tracked files can be modified, unmodified, or staged; they were part of the most recent file snapshot.
+ 
 - Untracked :Untracked files were not in the last snapshot and do not currently reside in the staging area.
 
 3. **Tracking and Staging a New File** :
 
 * To Track:
 - Single File: Track one file only by using the following format:
+
  `<git add filename>`
 
  -All Files:Track all files in a repository by using the following command:
+ 
  `<$ git add *>`
 
  > After using these commands, files are tracked and staged   for committing.
 
 * For new file:After adding a new file called EXAMPLE, you would see information regarding changes to be committed when using the git status command:
+
 `< $ git status>`
 
 On branch master
 Changes to be committed:
-$ git commit -a
+
+`<$ git commit -a>`
+
 `<(use "git reset HEAD ..." to unstage)>`
+
 **new file: EXAMPLE**
 
 4. **Committing a File** :To record the changes after staging one or multiple files:
+
 `<$ git commit -m “made change x,y,z”>`
 
 5. **Committing All Changes** :
+
 `<$ git commit -a>`
 
 6. **Pushing Changes** :To  push changes to a remote repository :
+
 - Example:
+
 `<$ git push origin master>`
+
 >This command pushes changes from the local “master” branch to the remote repository named “origin”.
 
 7. **Stashing Changes** : 
@@ -179,13 +208,21 @@ $ git commit -a
 
 
 - Example:
+
 `<$ cd example>`
+
 `<$ git remote -v>`
+
 `<remote1 https://github.com/remote1/example (fetch)>`
+
 `<remote1 https://github.com/remote1/example (push)>`
+
 `<remote2 https://github.com/remote2/example (fetch)>`
+
 `<remote2 https://github.com/remote2/example (push)>`
+
 `<remote3 https://github.com/remote3/example (fetch)>`
+
 `<remote3 https://github.com/remote3/example (push)>`
 
 

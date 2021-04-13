@@ -6,5 +6,5 @@
 | ------------------- |               -----------|
 | Lab01               |[Lab01](https://razan-am.github.io/reading-notes/Lab01)|
 | Read01              |[Read01](https://razan-am.github.io/reading-notes/Read:%2001%20-%20Learning%20Markdown)|
-| Read02              |[Read02](https://razan-am.github.io/reading-notes/Read:%2002) |
-| Read03              |
+| Read02              |[Read02](https://razan-am.github.io/reading-notes/Read:%2002)|
+| Read03              |[Read03](https://razan-am.github.io/reading-notes/Read:%2003)|

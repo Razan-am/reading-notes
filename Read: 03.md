@@ -45,6 +45,52 @@ can go.
 
 2. **Chapter 8:Extra Markup**
 
+- **Comments in HTML**:If you add a comment to your code it will not be visible in the user's browser, you can add the text between these characters <!-- -->.
+
+
+- **ID Attribute**:It is used to uniquely identify an element
+from other elements,every HTML element can carry
+the id,and its value should start with a letter or an underscore (not a number or any other character) like this
+ `<p id="pullquote">`
+>it's used so that in CSS the element with a
+unique identity allows you to style it differently than any other instance of the same element on the page.
+
+- **Class Attribute**:It is used as an a way to identify several elements as being different from the other elements.
+`For example, you might have some paragraphs of text that contain information that is more important than others and want to distinguish these elements`
+using this `<p class="important">`
+
+
+- **Block Elements**:Some elements will always appear to start on a new line in the browser window. These are
+known as block level elements.
+
+>Examples of block elements are <h1>, <p>, <ul>, and <li>.
+`<h1>Hiroshi Sugimoto</h1>`
+`<p>The dates for the ORIGIN OF ART exhibition are as       follows:</p>`
+`<ul> <li>Science: 21 Nov - 20 Feb 2010/11</li> </ul>`
+
+
+- **Inline Elements**:Used to appear the elements are continuing on the same line as their neighbouring elements.
+
+>Examples of inline elements are <a>, <b>, <em>, and <img>.
+
+
+-**Grouping Text & Elements In a Block <div>**:Used to
+group a set of elements together in one block-level box.
+
+>For example, you might create a <div> element to contain all of the elements for the header of your site (the logo and the navigation)
+`<div id="header">`
+`<img src="images/logo.gif" alt="Anish Kapoor" />`
+`<ul>`
+ `<li><a href="index.html">Home</a></li>`
+ `<li><a href="biography.html">Biography</a></li>`
+ `<li><a href="works.html">Works</a></li>`
+ `<li><a href="contact.html">Contact</a></li>`
+`</ul>`
+`</div><!-- end of header -->`
+
+
+
+
 
 
 

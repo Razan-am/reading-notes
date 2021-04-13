@@ -132,9 +132,121 @@ can see another page. The term iframe is an abbreviation of inline frame.
 
 `</iframe>`
 
+>**src**:The src attribute specifies the URL of the page to show in the frame.
+**height**:The height attribute specifies the height of the iframe in pixels.
+**width**:The width attribute specifies the width of the iframe in pixels
+**scrolling**:The scrolling attribute will not be supported in HTML5
+**frameborder**:The frameborder attribute will not be supported in HTML5.
+
+**Information About Your Pages**
+
+**<meta>**
+The <meta> element lives inside the <head> element and
+contains information about that web page.And it is not visible to users.
+
+>For example:
+
+`<head>`
+ `<title>Information About Your Pages</title>`
+ `<meta name="description"`
+ `content="An Essay on Installation Art" />`
+ `<meta name="keywords"`
+ `content="installation, art, opinion" />`
+ `<meta name="robots"`
+ `content="nofollow" />`
+ `<meta http-equiv="author"`
+ `content="Jon Duckett" />`
+ `<meta http-equiv="pragma"`
+ `content="no-cache" />`
+ `<meta http-equiv="expires"`
+ `content="Fri, 04 Apr 2014 23:59:59 GMT" />`
+`</head>`
+
+
+### Overall abou extra markup:
+
++ DOCTYPES tell browsers which version of HTML you are using.
++ You can add comments to your code between the <!-- and --> markers.
++ The id and class attributes allow you to identify particular elements.
++ The <div> and <span> elements allow you to group
+block-level and inline elements together.
++ <iframes> cut windows into your web pages through
+which other pages can be displayed.
++ The <meta> tag allows you to supply all kinds of
+information about your web page.
++ Escape characters are used to include special
+characters in your pages such as <, >, and ©.
+
+### An overall example of extra markup:
+
+`<!DOCTYPE html PUBLIC`
+`"-//W3C//DTD HTML 4.01 Transitional//EN"`
+`"http://www.w3.org/TR/html4/loose.dtd">`
+`<html>`
+`<head>`
+ `<meta name="description" content="Telephone, email`
+ `and directions for The Art Bookshop, London, UK" />`
+ `<title>Contact The Art Bookshop, London UK</title>`
+`</head>`
+`<body>`
+ `<div id="header">`
+ `<h1>The Art Book Shop</h1>`
+ `<ul>`
+ `<li><a href="index.html">home</a></li>`
+ `<li><a href="index.html">new publications</a>`
+ `</li>`
+ `<li class="current-page">`
+ `<a href="index.html">contact</a></li>`
+ `</ul>`
+ `</div><!-- end header -->`
+ `<div id="content">`
+ `<p>Charing Cross Road, London, WC2, UK</p>`
+ `<p><span class="contact">Telephone</span>`
+ `0207 946 0946</p>`
+ `<p><span class="contact">Email</span>`
+ `<a href="mailto:books@example.com">`
+ `books@example.com</a></p>`
+ `<iframe width="425" height="275" frameborder="0"`
+ `scrolling="no" marginheight="0" marginwidth="0"`
+ `src="http://maps.google.co.uk/maps?f=q&amp;`
+ `source=s_q&amp;hl=en&amp;geocode=&amp;`
+ `q=charing+cross+road+london&amp;output=embed">`
+ `</iframe>`
+ `</div><!-- end content -->`
+ `<p>&copy; The Art Bookshop</p>`
+`</body>`
+`</html>`
+
+
+3. **Chapter 17:HTML layout**
+
++ The new HTML5 elements indicate the purpose of different parts of a web page and help to describe its structure.
++ The new elements provide clearer code (compared with using multiple <div> elements).
++ Older browsers that do not understand HTML5 elements need to be told which elements are block-level elements.
++ To make HTML5 elements work in Internet Explorer 8
+(and older versions of IE), extra JavaScript is needed,
+which is available free from Google.
+
+
+4. **Chapter 18:Prossess & design**
+
++ It's important to understand who your target audience
+is, why they would come to your site, what information
+they want to find and when they are likely to return.
++ Site maps allow you to plan the structure of a site.
++ Wireframes allow you to organize the information that
+will need to go on each page.
++ Design is about communication. Visual hierarchy helps
+visitors understand what you are trying to tell them.
++ You can differentiate between pieces of information
+using size, color, and style.
++ You can use grouping and similarity to help simplify
+the information you present.
 
 
 
 
+**References:**
 
-
+@Jon Duckett/[HTML & CSS
+](file:///D:/ltuc/code%20102/HTML%20CSS.pdf)

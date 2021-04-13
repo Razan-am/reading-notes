@@ -4,7 +4,7 @@
 
 ......................................................................
 
- *** ``` The contents: ``` ***
+ ***``` The contents: ```***
 
 ### **  Version Control: **
    its a system that contain all the changes of a project by creating many versions depending in the number of changes of that project and provide us the ability to can revert a file or project to a previous version, track modifications and modifying individuals, and compare changes. Through it mistakes with files can easily be rectified with Version Control System (VCS).

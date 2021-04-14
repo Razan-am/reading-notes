@@ -1,6 +1,6 @@
-# ***Compters***
+# ***Computers***
 
-----------------
+------------------------------------------------------------
 - When we say computer what we mean it is not just a pc or just a laptop. Computer are about everything we use nowadays whether it's our smartphones , tablets ,VR,smart watches....etc, and so many other examples.So computers it's a thinking machine that we built it to helps us in manipulate information.
 
 ### **Now what is make a computer a computer?**
@@ -64,7 +64,8 @@ output from one computer it'll be the input for the another and vice versa.
 
 3. **Image and videos in binary system :**
 all the images are made of very small dots called pixels,and each pixel has a color, and each color can be represented with a number.
---------------------
+
+------------------------------------------------------------
 
 >Programmers when they are using the computer to write a code or buillt an app, they are not directly dealing with these ones and zeros,but they are dealing with  images and videos and sounds that they are converting to the binary system.
 
@@ -72,8 +73,42 @@ all the images are made of very small dots called pixels,and each pixel has a co
 
 ### **Hardware and Software**
 
+- **Hardware** are the what you can see inside your device such as the ships,wires,circuits,plugs,speakers,and all these kind of stuff.
+
+- **Software** its all the codes and the programs that are running on this device  such as games,maps,apps,web pages.
+
+**Then how the software and the hard ware are iteracting with each other ?**
+
+- **The hardware** has a device called central processing unit `CPU`.The CPU it's a ship that controls all the part of the device. The CPU in charge to do diffrent things so it has inside it acircuits with a small parts that each one of them handel specific tasks.
+>Such as one of them is responsible to send and recieve information to and from different parts of the device.And another one is responsible in do a math and logic parts.
 
 
+**How CPU work ?**
+
+- The CPU recieve a command that tell it wich circuit to use to a specific job.
+For example :
+  - ADD command 
+  - Move command
+  - Store command 
+
+
+- **The software :**
+In the CPU all the commands are been saved in binary system and its a software laguage, so to write a command such as draw a circle on the screen programmers will used a programming language such as python , html ...., tat will be converting to binary commands that CPU will understand it .
+
+
+>All  this process runs with an operation system, this system is the master programm of the device that manage how the software gets to use the hardeware of the device.
+Such as  :
+- Windows
+- Andriod OS
+- IOS
+
+
+**References:**
+
+@
+Code.org/[
+Code.org
+](https://www.youtube.com/playlist?list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-)
 
 
 

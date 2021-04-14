@@ -46,8 +46,7 @@ can go.
 2. **Chapter 8:Extra Markup**
 
 - **Comments in HTML**:If you add a comment to your code it will not be visible in the user's browser, you can add the text between these characters <!-- -->.
-<<<<<<< HEAD
-=======
+
 
 
 - **ID Attribute**:It is used to uniquely identify an element
@@ -66,9 +65,20 @@ using this `<p class="important">`
 known as block level elements.
 
 >Examples of block elements are <h1>, <p>, <ul>, and <li>.
+
 `<h1>Hiroshi Sugimoto</h1>`
+
 `<p>The dates for the ORIGIN OF ART exhibition are as       follows:</p>`
-`<ul> <li>Science: 21 Nov - 20 Feb 2010/11</li> </ul>`
+
+`<ul> `
+
+ ` <li>`
+
+   `  Science: 21 Nov - 20 Feb 2010/11`
+
+ ` </li>`
+
+ `</ul>`
 
 
 - **Inline Elements**:Used to appear the elements are continuing on the same line as their neighbouring elements.
@@ -81,19 +91,22 @@ group a set of elements together in one block-level box.
 
 >For example, you might create a <div> element to contain all of the elements for the header of your site (the logo and the navigation)
 `<div id="header">`
+
 `<img src="images/logo.gif" alt="Anish Kapoor" />`
+
 `<ul>`
+
  `<li><a href="index.html">Home</a></li>`
+
  `<li><a href="biography.html">Biography</a></li>`
+
  `<li><a href="works.html">Works</a></li>`
+
  `<li><a href="contact.html">Contact</a></li>`
+
 `</ul>`
+
 `</div><!-- end of header -->`
-
-
-
-
->>>>>>> 98bda7704efffc3a153a70114d372e5f449ea522
 
 
 - **ID Attribute**:It is used to uniquely identify an element
@@ -195,19 +208,33 @@ contains information about that web page.And it is not visible to users.
 >For example:
 
 `<head>`
+
  `<title>Information About Your Pages</title>`
+
  `<meta name="description"`
+
  `content="An Essay on Installation Art" />`
+
  `<meta name="keywords"`
+
  `content="installation, art, opinion" />`
+
  `<meta name="robots"`
+
  `content="nofollow" />`
+
  `<meta http-equiv="author"`
+
  `content="Jon Duckett" />`
+
  `<meta http-equiv="pragma"`
+
  `content="no-cache" />`
+ 
  `<meta http-equiv="expires"`
+
  `content="Fri, 04 Apr 2014 23:59:59 GMT" />`
+ 
 `</head>`
 
 

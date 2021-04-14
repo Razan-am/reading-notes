@@ -8,3 +8,5 @@
 | Read01              |[Read01](https://razan-am.github.io/reading-notes/Read:%2001%20-%20Learning%20Markdown)|
 | Read02              |[Read02](https://razan-am.github.io/reading-notes/Read:%2002)|
 | Read03              |[Read03](https://razan-am.github.io/reading-notes/Read:%2003)|
+| Read04a              |[Read04a](https://razan-am.github.io/reading-notes/Read:%2003)|
+| Read04b             |[Read04b](https://razan-am.github.io/reading-notes/Read:%2003)|

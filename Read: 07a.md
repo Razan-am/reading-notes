@@ -14,9 +14,9 @@
 
 1. BLOCK & INLINE ELEMENTS
    - Block level elements look like they start on a new line taking the full width,like:
-<h1>-,<h6>, <p> and <div> elements
+`<h1>-,<h6>, <p> and <div> elements`
    - Inline elements flow within the text and do not start on a new line taking only the content width,like :
- <b>, <i>,<img>, <em> and <span>
+ `<b>, <i>,<img>, <em> and <span>`
 
 >Example Styles:
   - Boxes:

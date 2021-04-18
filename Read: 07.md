@@ -39,13 +39,13 @@
    -------------------
 
 **CSS associates style rules with HTML elements :**
-<img src="images/read7(1).PNG" width="350" height="250" />
+
 
 
 
 **CSS properties affected of how the elements are displayed**
 
-<img src="images/read7(2).PNG" width="350" height="250" />
+
 
 >Examples:
 HTML file:

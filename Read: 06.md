@@ -190,7 +190,12 @@ updateMessage(};
 <img src="images/read6(8).PNG" width="350" height="250" />
 <img src="images/read6(9).PNG" width="350" height="250" />
 
-
+-----------------------------------------------------------
 
 2.  Method :is the same as a function, except methods are created inside (and are part of) an object. 
 
+------------------------------------------------------------------------------------------------------------------------
+**References:**
+
+@Jon Duckett/[JAVASCRIPT
+](file:///D:/ltuc/code%20102/Javascript_and_jquery_interactive_jon_du.pdff)

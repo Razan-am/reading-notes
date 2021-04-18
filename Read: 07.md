@@ -5,6 +5,7 @@
 
 - CSS allows you to create rules that specify how the content of an element should appear
 
+---------------------
 
 - Understanding CSS:`(Thinking Inside the Box)`
     - The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element.
@@ -35,6 +36,59 @@
    - Tabels
    - Forms
 
+   -------------------
+
+**CSS associates style rules with HTML elements :**
+
+
+<img src="images/read7(1).PNG" width="250" height="150" />
+
+
+
+
+**CSS properties affected of how the elements are displayed**
+
+
+
+<img src="images/read7(2).PNG" width="250" height="150" />
+
+
+>Examples:
+HTML file:
+
+`<!DOCTYPE html>`
+
+`<html>`
+
+`<head>`
+
+ `<title>Introducing CSS</title>`
+
+ `<link href="css/example.css" type="text/css"`
+
+` rel="stylesheet" />`
+
+`</head>`
+
+`<body>`
+
+` <h1>From Garden to Plate</h1>`
+
+ `<p>A`
+
+  `<i>potager</i>` 
+  `is a French term for an`
+ `ornamental vegetable or kitchen garden ... </p>`
+
+ `<h2>What to Plant</h2>`
+
+ `<p>Plants are chosen as much for their functionality`
+ `as for their color and form ... </p>`
+
+`</body>`
+
+`</html>`
+
 >CSS file:
 body {
 
@@ -49,6 +103,7 @@ p {
 >color: #665544;
 }
 
+----------------------------------------------------------
 
 ### ***Ways to link CSS with HTML:***
 
@@ -60,17 +115,18 @@ p {
 
 3. External CSS : using the `<link>` element in the HTML document to tell the browser where to find the CSS file that is used to style the page. 
 
+-----------------------------------------------------------
 
 ### ***CSS Selectors:***
 - There are many different types of CSS selector that allow you to target rules to specific elements in an HTML document. 
 >Such as : (*) to target all the elements, (h1,h2,.....) by targetting the elemnt name 
 
-
+----------------------------------------------------------
 
 ### ***Inheritance:***
 - If you specify the font-family or color properties on the `<body>` element, they will apply to most child elements. This is because the value of the font-family property is inherited by child elements.
 
-
+----------------------------------------------------------
 ### ***An Overall***
 - CSS treats each HTML element as if it appears inside its own box and uses rules to indicate how that element should look.
 - Rules are made up of selectors (that specify the elements the rule applies to) and declarations (that indicate what these elements should look like).

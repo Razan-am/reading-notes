@@ -36,42 +36,24 @@
    - Tabels
    - Forms
 
----------------------------------------------------------
->Examples:
-HTML file:
+   -------------------
 
-`<!DOCTYPE html>`
+**CSS associates style rules with HTML elements :**
 
-`<html>`
 
-`<head>`
+<img src="images/read7(1).PNG" width="250" height="150" />
 
- `<title>Introducing CSS</title>`
 
- `<link href="css/example.css" type="text/css"`
 
-` rel="stylesheet" />`
 
-`</head>`
+**CSS properties affected of how the elements are displayed**
 
-`<body>`
 
-` <h1>From Garden to Plate</h1>`
 
- `<p>A`
+<img src="images/read7(2).PNG" width="250" height="150" />
 
-  `<i>potager</i>` 
-  `is a French term for an`
- `ornamental vegetable or kitchen garden ... </p>`
 
- `<h2>What to Plant</h2>`
-
- `<p>Plants are chosen as much for their functionality`
- `as for their color and form ... </p>`
-
-`</body>`
-
-`</html>`
+-----------------------
 
 >CSS file:
 body {

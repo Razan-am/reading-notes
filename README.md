@@ -7,7 +7,7 @@
 | ------------------- |--------------------------|
 |              Code102 Reading Notes             |
 |Code102/Lab01        |[Lab01](https://razan-am.github.io/reading-notes/Lab01)|
-|Code102/Read01       |[Read01](https://razan-am.github.io/reading-notes/Read:%2001%20-%20Learning%20Markdown)|
+|Code102/Read01       |[Read01](https://razan-am.github.io/reading-notes/Read:%2001)|
 |Code102/Read02       |[Read02](https://razan-am.github.io/reading-notes/Read:%2002)|
 |Code102/Read03       |[Read03](https://razan-am.github.io/reading-notes/Read:%2003)|
 |Code102/Read04a      |[Read04a](https://razan-am.github.io/reading-notes/Read:%2004a)|
@@ -17,7 +17,7 @@
 |Code102/Read07       |[Read07](https://razan-am.github.io/reading-notes/Read:%2007)|
 |Code102/Read09       |[Read09](https://razan-am.github.io/reading-notes/Read:%2009)|
 |               Code  201 Reading Notes              |
-|Code201/class-01     |[class-01](https://razan-am.github.io/reading-notes/Read:%2009)|
+|Code201/class-01     |[class-01]()                  |
 |Code201/class-02     |[class-02]()                  |
 |Code201/class-03     |[class-03]()                  |
 |Code201/class-04     |[class-04]()                  |

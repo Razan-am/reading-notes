@@ -3,7 +3,7 @@
 
 #### **Table of content :**
 
-<<<<<<< HEAD
+
 | name of the content |                The links      |
 | ------------------- |-------------------------------|
 |              Code102 Reading Notes                  |

@@ -1,4 +1,4 @@
-#### **Hello , i'm Razan alamleh and i had a bachelor degree in architecture engineering , this is my GitHub account : [razan-am](https://github.com/Razan-am)**
+#### **Reading Notes For HTML/CSS/JAVASCRIPT programming languages**
 
 ###### **Table of content :**
 
@@ -16,17 +16,21 @@
 | Read09              |[Read09](https://razan-am.github.io/reading-notes/Read:%2009)|
 |               Code  201 Reading Notes              |
 |Code201/class-01     |[Code201/class-01]()          |
-|Code201/class-02     |[Code201/class-01]()          |
-|Code201/class-03     |[Code201/class-01]()          |
-|Code201/class-04     |[Code201/class-01]()          |
-|Code201/class-05     |[Code201/class-01]()          |
-|Code201/class-06     |[Code201/class-01]()          |
-|Code201/class-07     |[Code201/class-01]()          |
-|Code201/class-08     |[Code201/class-01]()          |
-|Code201/class-09     |[Code201/class-01]()          |
-|Code201/class-10     |[Code201/class-01]()          |
-|Code201/class-11     |[Code201/class-01]()          |
-|Code201/class-12     |[Code201/class-01]()          |
-|Code201/class-13     |[Code201/class-01]()          |
-|Code201/class-14a    |[Code201/class-01]()          |
-|Code201/class-14b    |[Code201/class-01]()          |
+|Code201/class-02     |[Code201/class-02]()          |
+|Code201/class-03     |[Code201/class-03]()          |
+|Code201/class-04     |[Code201/class-04]()          |
+|Code201/class-05     |[Code201/class-05]()          |
+|Code201/class-06     |[Code201/class-06]()          |
+|Code201/class-07     |[Code201/class-07]()          |
+|Code201/class-08     |[Code201/class-08]()          |
+|Code201/class-09     |[Code201/class-09]()          |
+|Code201/class-10     |[Code201/class-10]()          |
+|Code201/class-11     |[Code201/class-11]()          |
+|Code201/class-12     |[Code201/class-12]()          |
+|Code201/class-13     |[Code201/class-13]()          |
+|Code201/class-14a    |[Code201/class-14a]()         |
+|Code201/class-14b    |[Code201/class-14b]()         |
+
+
+
+

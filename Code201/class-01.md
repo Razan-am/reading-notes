@@ -27,7 +27,7 @@ on your page.
 computer known as `a web server` which hosts the website.
 + **Screen readers** :Screen readers are programs that read out the contents of a computer screen to a user.
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNMK9_3PyLeE0JtiX5z1t7MiWp7sjXeJQ7cInh6bFFEOuPY97fp96keNJMHZiAWpHnqfU&usqp=CAU> 
+![Image](images/Capture.PNG)
 <img src="images/Capture.PNG" width="200" height="250"/>
 <img src="images/Capture1.PNG" width="200" height="250"/>
 

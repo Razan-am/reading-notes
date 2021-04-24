@@ -378,11 +378,6 @@ that down into following steps :
 
 ------------------------------------------------------------
 
->Designing a script diagram:
-
-<img src="images/read6(2).PNG" width="200" height="250"/>
-<img src="images/read6(3).PNG" width="200" height="250"/> 
-
 ----------------------------------------------------------
 
 ##### FROM STEPS TO CODE

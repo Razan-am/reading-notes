@@ -27,9 +27,11 @@ on your page.
 computer known as `a web server` which hosts the website.
 + **Screen readers** :Screen readers are programs that read out the contents of a computer screen to a user.
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNMK9_3PyLeE0JtiX5z1t7MiWp7sjXeJQ7cInh6bFFEOuPY97fp96keNJMHZiAWpHnqfU&usqp=CAU> 
-<img src="images/Capture.PNG" width="200" height="250"/>
-<img src="images/Capture1.PNG" width="200" height="250"/>
+>html using elements to describe the structure of the page:
+
+![Image](http://worldntech.weebly.com/uploads/9/1/8/9/91898570/published/screen-shot-2017-04-14-at-8-38-30-am.png?1492139484)
+![Image](http://worldntech.weebly.com/uploads/9/1/8/9/91898570/published/screen-shot-2017-04-14-at-8-38-58-am.png?1492139520)
+
 
 
 ### So an overall the websites are being built using HTML and CSS,so how these worked ?
@@ -342,8 +344,6 @@ the browser to follow (like a recipe),which allows it to access or change the co
 - Program rules or instructions the browser can follow
 - React to events triggered by the user or browser 
 
-**```Before getting deep in the javascript this is a quiqk refresh for HTML & CSS:```**
-<img src="images/read6(1).PNG" width="200" height="250"/>
 
 ---------------------------------------------------------
 ### **The A B C in programming**
@@ -379,6 +379,7 @@ that down into following steps :
 ------------------------------------------------------------
 
 >Designing a script diagram:
+
 <img src="images/read6(2).PNG" width="200" height="250"/>
 <img src="images/read6(3).PNG" width="200" height="250"/> 
 

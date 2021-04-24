@@ -3,7 +3,7 @@ Design and Build Websites
 
 ## Contents:
 
-1. **Chapter 1 :Structure** 
+- ### **Chapter 1 :Introduction** 
 
 **```In order to teach you about creating web pages,
 this book is divided into three sections:```**
@@ -27,6 +27,11 @@ on your page.
 computer known as `a web server` which hosts the website.
 + **Screen readers** :Screen readers are programs that read out the contents of a computer screen to a user.
 
+
+<img src="images/Capture.PNG" width="200" height="250"/>
+<img src="images/Capture1.PNG" width="200" height="250"/>
+
+
 ### So an overall the websites are being built using HTML and CSS,so how these worked ?
 
 + HTML pages are text documents.
@@ -43,28 +48,31 @@ available for you to use, what they do, and where they
 can go.
 
 
-2. **Chapter 8:Extra Markup**
-
-- **Comments in HTML**:If you add a comment to your code it will not be visible in the user's browser, you can add the text between these characters <!-- -->.
+- ### **Chapter 8:Extra Markup**
 
 
+- ***DOCTYPES***:There are a several versions of HTML, each web page should begin with a `DOCTYPE` declaration to tell a browser which version of HTML the page is using 
 
-- **ID Attribute**:It is used to uniquely identify an element
+- ***Comments in HTML***:If you add a comment to your code it will not be visible in the user's browser, you can add the text between these characters `<!-- -->`.
+
+- ***ID Attribute***:It is used to uniquely identify an element
 from other elements,every HTML element can carry
 the id,and its value should start with a letter or an underscore (not a number or any other character) like this
  `<p id="pullquote">`
+
 >it's used so that in CSS the element with a
 unique identity allows you to style it differently than any other instance of the same element on the page.
 
-- **Class Attribute**:It is used as an a way to identify several elements as being different from the other elements.
+------------------------------------------------------------
+
+  - ***Class Attribute***:It is used as an a way to identify several elements as being different from the other elements.
 `For example, you might have some paragraphs of text that contain information that is more important than others and want to distinguish these elements`
 using this `<p class="important">`
 
-
-- **Block Elements**:Some elements will always appear to start on a new line in the browser window. These are
+  - ***Block Elements***:Some elements will always appear to start on a new line in the browser window. These are
 known as block level elements.
 
->Examples of block elements are <h1>, <p>, <ul>, and <li>.
+>Examples of block elements are `<h1>, <p>, <ul>, and <li>`.
 
 `<h1>Hiroshi Sugimoto</h1>`
 
@@ -81,15 +89,14 @@ known as block level elements.
  `</ul>`
 
 
-- **Inline Elements**:Used to appear the elements are continuing on the same line as their neighbouring elements.
+- ***Inline Elements***:Used to appear the elements are continuing on the same line as their neighbouring elements.
 
->Examples of inline elements are <a>, <b>, <em>, and <img>.
+>Examples of inline elements are `<a>, <b>, <em>, and <img>.`
 
-
--**Grouping Text & Elements In a Block <div>**:Used to
+- ***Grouping Text & Elements In a Block `<div>`***:Used to
 group a set of elements together in one block-level box.
 
->For example, you might create a <div> element to contain all of the elements for the header of your site (the logo and the navigation)
+>For example, you might create a `<div>` element to contain all of the elements for the header of your site (the logo and the navigation)
 `<div id="header">`
 
 `<img src="images/logo.gif" alt="Anish Kapoor" />`
@@ -109,64 +116,8 @@ group a set of elements together in one block-level box.
 `</div><!-- end of header -->`
 
 
-- **ID Attribute**:It is used to uniquely identify an element
-from other elements,every HTML element can carry
-the id,and its value should start with a letter or an underscore (not a number or any other character) like this
-
-`<p id="pullquote">`
-
->it's used so that in CSS the element with a
-unique identity allows you to style it differently than any other instance of the same element on the page.
-
-- **Class Attribute**:It is used as an a way to identify several elements as being different from the other elements.
-
-`For example, you might have some paragraphs of text that contain information that is more important than others and want to distinguish these elements`
-
-using this `<p class="important">`
-
-
-- **Block Elements**:Some elements will always appear to start on a new line in the browser window. These are
-known as block level elements.
-
->Examples of block elements are <h1>, <p>, <ul>, and <li>.
-
-`<h1>Hiroshi Sugimoto</h1>`
-
-`<p>The dates for the ORIGIN OF ART exhibition are as       follows:</p>`
-
-`<ul> <li>Science: 21 Nov - 20 Feb 2010/11</li> </ul>`
-
-
-- **Inline Elements**:Used to appear the elements are continuing on the same line as their neighbouring elements.
-
->Examples of inline elements are <a>, <b>, <em>, and <img>.
-
-
-- **Grouping Text & Elements In a Block <div>**:Used to
-group a set of elements together in one block-level box.
-
->For example, you might create a <div> element to contain all of the elements for the header of your site (the logo and the navigation)
-
-`<div id="header">`
-
-`<img src="images/logo.gif" alt="Anish Kapoor" />`
-
-`<ul>`
-
- `<li><a href="index.html">Home</a></li>`
-
- `<li><a href="biography.html">Biography</a></li>`
-
- `<li><a href="works.html">Works</a></li>`
-
- `<li><a href="contact.html">Contact</a></li>`
-
-`</ul>`
-
-`</div><!-- end of header -->`
-
-
-- **Grouping Text & Elements Inline <span>**:The `<span> `element acts like an inline equivalent of the `<div>` element. It is used to either:
+- ***Grouping Text & Elements Inline `<span>`**:
+The `<span> `element acts like an inline equivalent of the `<div>` element. It is used to either:
 1. Contain a section of text
 where there is no other suitable
 element to differentiate it from
@@ -177,9 +128,7 @@ elements
 
  `<span class="gallery">Tate Modern</span>` 
 
- - **IFrames <iframe>**: An iframe is like a little window
-that has been cut into your page — and in that window you
-can see another page. The term iframe is an abbreviation of inline frame.
+ - ***IFrames `<iframe>`***: An iframe is like a little window that has been cut into your page — and in that window you can see another page. The term iframe is an abbreviation of inline frame.
 
 `<iframe`
 
@@ -199,9 +148,11 @@ can see another page. The term iframe is an abbreviation of inline frame.
 **scrolling**:The scrolling attribute will not be supported in HTML5
 **frameborder**:The frameborder attribute will not be supported in HTML5.
 
-**Information About Your Pages**
+-----------------------------------------------------------
 
-**<meta>**
+- **Information About Your Pages**
+
+**`<meta>`**
 The <meta> element lives inside the <head> element and
 contains information about that web page.And it is not visible to users.
 
@@ -392,7 +343,7 @@ the browser to follow (like a recipe),which allows it to access or change the co
 - React to events triggered by the user or browser 
 
 **```Before getting deep in the javascript this is a quiqk refresh for HTML & CSS:```**
-<img src="images/read6(1).PNG" width="350" height="250" />
+<img src="images/read6(1).PNG" width="200" height="250"/>
 
 ---------------------------------------------------------
 ### **The A B C in programming**
@@ -428,8 +379,8 @@ that down into following steps :
 ------------------------------------------------------------
 
 >Designing a script diagram:
-<img src="images/read6(2).PNG" width="200" height="250" /> 
-<img src="images/read6(3).PNG" width="200" height="250" />
+<img src="images/read6(2).PNG" width="200" height="250"/>
+<img src="images/read6(3).PNG" width="200" height="250"/> 
 
 ----------------------------------------------------------
 

@@ -27,12 +27,11 @@ on your page.
 computer known as `a web server` which hosts the website.
 + **Screen readers** :Screen readers are programs that read out the contents of a computer screen to a user.
 
+
 >html using elements to describe the structure of the page:
 
 ![Image](http://worldntech.weebly.com/uploads/9/1/8/9/91898570/published/screen-shot-2017-04-14-at-8-38-30-am.png?1492139484)
 ![Image](http://worldntech.weebly.com/uploads/9/1/8/9/91898570/published/screen-shot-2017-04-14-at-8-38-58-am.png?1492139520)
-
-
 
 ### So an overall the websites are being built using HTML and CSS,so how these worked ?
 

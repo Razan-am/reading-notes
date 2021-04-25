@@ -24,21 +24,21 @@
 
 | name of the content |                The links      |
 | ------------------- |-------------------------------|     
-|Code201/class-01     |[class-01](https://razan-am.github.io/reading-notes/Code201/class-01)|
-|Code201/class-02     |[class-02]()                   |
-|Code201/class-03     |[class-03]()                   |
-|Code201/class-04     |[class-04]()                   |
-|Code201/class-05     |[class-05]()                   |
-|Code201/class-06     |[class-06]()                   |
-|Code201/class-07     |[class-07]()                   |
-|Code201/class-08     |[class-08]()                   |
-|Code201/class-09     |[class-09]()                   |
-|Code201/class-10     |[class-10]()                   |
-|Code201/class-11     |[class-11]()                   |
-|Code201/class-12     |[class-12]()                   |
-|Code201/class-13     |[class-13]()                   |
-|Code201/class-14a    |[class-14a]()                  |
-|Code201/class-14b    |[class-14b]()                  |
+|Read-01              |[Read-01](https://razan-am.github.io/reading-notes/Code201/Read-01)|
+|Read-02              |[Read-02]()                   |
+|Read-03              |[Read-03]()                   |
+|Read-04              |[Read-04]()                   |
+|Read-05              |[Read-05]()                   |
+|Read-06              |[Read-06]()                   |
+|Read-07              |[Read-07]()                   |
+|Read-08              |[Read-08]()                   |
+|Read-09              |[Read-09]()                   |
+|Read-10              |[Read-10]()                   |
+|Read-11              |[Read-11]()                   |
+|Read-12              |[Read-12]()                   |
+|Read-13              |[Read-13]()                   |
+|Read-14a             |[Read-14a]()                  |
+|Read-14b             |[Read-14b]()                  |
 
 
 

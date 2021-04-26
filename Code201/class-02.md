@@ -221,7 +221,7 @@ the page (e.g. headings, subheadings, paragraphs).And they also provide semantic
 
 
 
-<img src="images/2.PNG" width="250" height="150" />
+<img src="imag/2.PNG" width="250" height="150"/>
 
 
 >Examples:

@@ -25,7 +25,7 @@
 | name of the content |                The links      |
 | ------------------- |-------------------------------|     
 |Read-01              |[Read-01](https://razan-am.github.io/reading-notes/Code201/class-01)|
-|Read-02              |[Read-02](https://razan-am.github.io/reading-notes/Code201/Code201/class-02)                   |
+|Read-02              |[Read-02](https://razan-am.github.io/reading-notes/Code201/class-02)|
 |Read-03              |[Read-03]()                   |
 |Read-04              |[Read-04]()                   |
 |Read-05              |[Read-05]()                   |

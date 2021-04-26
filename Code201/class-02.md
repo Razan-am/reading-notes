@@ -216,10 +216,6 @@ the page (e.g. headings, subheadings, paragraphs).And they also provide semantic
 
 **CSS associates style rules with HTML elements :**
 
-<img src="images/1.PNG"  hight="150px Width="250px">
-
-
-
 
 **CSS properties affected of how the elements are displayed**
 

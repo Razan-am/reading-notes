@@ -101,7 +101,7 @@
 
 `<p>A shot in which the subject is photographed by an encircling or moving camera</p>`
 
-`<h2 id="interlude">Interlude</h2>``
+`<h2 id="interlude">Interlude</h2>`
 
 `<p>A brief, intervening film scene or sequence, not specifically tied to the plot, that appears within a film</p>`
 

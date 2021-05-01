@@ -117,7 +117,7 @@ This is a function
 
 2. `ELEMENT NODES `
 
-   The HTML elements that describe the structure of an HTML page ,like the `<hl>` lements describe what parts are headings; the <p> tags indicate where paragraphs of text start and finish; and so on.
+   The HTML elements that describe the structure of an HTML page ,like the `<hl>` lements describe what parts are headings; the `<p>` tags indicate where paragraphs of text start and finish; and so on.
 
 >To access the DOM tree, you start by looking for elements. Once you find the element you want, then you can access its text and attribute nodes if you want to. This is why you start by learning methods that allow you to access element nodes, before learning to access and alter text or attributes.
 
@@ -142,27 +142,29 @@ This is a function
    - Locate the node that represents the element you want to work with.
    - Use its text content, child elements, and attributes. 
 
+## **Finding the elements**
+
 ### 1. ACCESS THE ELEMENTS
 - It is through methods and properties that allow us to access elements
 
-- By selecting an individual element node :
+- `By selecting an individual element node :`
   1. `getElementByld()`:Uses the value of an element's id attribute
   2. `querySelector()`:Uses a CSS selector, and returns the first matching element.
   
-- By select multiple elements (nodelists) :
+- `By select multiple elements (nodelists) :`
   1. `getElementsByClassName()`:Selects all elements that have a specific value for their class attribute. 
   2. `getElementsByTagName()`:Selects all elements that have the
 specified tag name .
   3. `querySelectorAll()`:Uses a CSS selector to select all matching elements. 
 
-- By traversing between elements nodes :
+- `By traversing between elements nodes :`
   1. `parentNode`:Selects the parent of the current element node (which will return just one element). 
   2. `previousSibling / nextSibling`:Selects the previous or next
 sibling from the DOM tree. 
    3. `firstChild / lastChild`:Select the first or last child of the
 current element. 
 
-### 2. WORK W ITH THOSE ELEMENTS 
+### 2. WORK WITH THOSE ELEMENTS 
 
 1. `Access/update text nodes`:The text inside any element is stored inside a text node, and to access it :
     1. Select the parent element
@@ -183,7 +185,221 @@ current element.
    4. `setAttri bute()` : it is to updates the attribue value. 
    5. `removeAttribute()` : it is to removes an attribute. 
 
-   
+----------------------------------------------
+
+- The methods that used to find elements in the Dom tree called` Dom queries`.When you are working with an element more than once ,you should store the result for this `query in a variable`.
+- It is store the location of the element(node) inside the variable 
+- This save the browser from looking in tha whole DOM tree for the  element and it's known as `catching the selection`.
+
+**ACCESSING ELEMENTS**
+- DOM queries may return `one element`, or they may return a `Nodelist`, which is a collection of nodes. 
+
+>`Nodelist:` several elements can have the same tag name, so `getElementsByTagName ()` will alwaysreturn a `Nodelist`.And if you want to select the element from this list using an `index number` (which means the numbering starts at 0 like the items in an array).
+
+>`Fastest route:`to access an element within your web page quickly will make the page seem faster and/or more responsive.For example, `getEl ementByld ()` will quickly return one element .
+
+**- Methods that return a single element node:**
+   - `getElementByld( 'id')`:Selects an individual element given the value of its id attribute ,the HTML must have an id attribute in order for it to be selectable. 
+  - `querySelector('css selector')`:Uses CSS selector syntax that would select one or more elements ,this method returns only the first of the matching elements. 
+
+>Example:
+
+`//By id attribute:`
+
+`// Select the element and store it in a variable.` 
+
+`var el = document.getElementByid('one');` 
+
+`// Change the value of the class attribute.` 
+
+`el.className ='cool ' ;` 
+
+---------------------------------------------------------------------------------
+
+**- Methods that return one or more elements `(as a Nodlist)`:**
+   - `getEl ementsByClassName('class')`:Selects one or more elements given the value of their class attribute,the HTML must have a class attribute for it to be selectable.
+>This method is faster than `querySelectoAll ()` . 
+   - `getEl ementsByTagName('tagName')`:Selects all elements on the page with the specified tag name.
+>This method is faster than `querySelectorAll ()`
+   - `querySelectorAll ('css selector')`:Uses CSS selector syntax to select one or more elements and returns all of those that match.
+
+#### ***More about the Nodlist***
+-  It's a collection of element nodes,and each node is given an index number (a number that starts at zero, just like an array). 
+- Nodelists look like arrays and are numbered like arrays, but they are not actually arrays; they are a type of object called a collection. 
+- The order of the element nodes are stored in a Node List is the same order that they appeared in the HTML page. 
+- You can select an element from the Nodlist or you can loop through each item in the Nodelist.
+- Nodlist have properties and methods:
+   - `The length property` tells you how many items are in the Nodelist. 
+   - `The item() method` returns a specific node from the Nodelist when you tell it the index number of the item that you want.
+
+>Example:
+
+`var elements = document.getElementsByClassName('hot')`
+
+`if (elements.length>= 1) {`
+
+`var firstltem = elements.item(0);`
+`}`
+
+>You can also access it also by using the `[ ] seqaure barckets`.
+
+>Example:
+
+`var elements = document.getElementsByClassName('hot')`
+
+`if (elements.length>= 1) {`
+
+`var firstltem = elements[0];`
+`} `
+
+-------------------------------
+
+**SELECTING ELEMENTS USING CLASS ATTRIBUTES** 
+
+- The `getElementsByClassName()` method allows you to select elements whose class attribute contains a specific value .It is return as `a Nodlist`.
+>Example:
+
+`// Find hot items` 
+
+`var elements = document .getEl ementsByClassName('hot');` 
+
+`// If 3 or more are found`
+
+`if (elements.l ength> 2) { `
+
+`// Select the third one from the Nodelist`
+
+`var el = elements[2];`
+
+`// Change the value of its class attribute `
+
+`el.className = 'cool';}`
+
+**SELECTING ELEMENTS BY TAG NAME**
+
+- The `get ElementsByTagName ()` method allows you to select elements using their tag name.The element name is specified as a parameter, so it is placed inside the parentheses and is contained by quote marks. 
+>Example:  
+
+`//Find <li> elements`
+
+`var elements = document.getElementsByTagName('li ');` 
+
+`// If 1 or more are found` 
+
+`if (elements.length> 0) {`
+ 
+`//Select the first one using array syntax`
+
+`var el = elements[0];`
+
+`//Change the value of the class attribute`
+
+`el.className = 'cool'; }`
+
+**SELECTING ELEMENTS USING CSS SELECTORS**
+- `querySelector()` returns the first element node that matches the CSS-style selector. `querySelectorAll()`returns `a Nodelist` of all of the matches. 
+>Example:
+
+`// querySelector() only returns the first match`
+
+`var el = document .querySel ector('li .hot ' };` 
+
+`el.className = ' cool' ;` 
+
+`//querySelectorAll returns a Nodelist`
+
+`//The second matching element (the third list item) is selected and changed `
+
+`var els = document .querySelectorAll('li .hot') ;` 
+
+`els[1] .className = ' cool' ;` 
+
+**LOOPING THROUGH A NODELIST**
+- If you want to apply the same code to each node.
+>Example:
+
+`// Store Nodel ist i n array` 
+
+`var hotlt ems = document .querySelectorAl l ('li.hot');`
+
+`//If it contains item`
+
+`if (hot ltems.length > 0) {`
+
+`//Loop through each item`
+
+`for (var i=0; i<hotItems.length; i++) {`
+
+`//Change value of class attribute.`
+
+`hotltems[i] .className = 'cool'; }`
+
+`}`
+
+**TRAVERSING THE DOM**
+- When you have an element node, you can select another element in relation to it using these properties:
+1. `parentNode:`This property finds the element
+node for the containing (or parent) element in the HTML.
+>`<li>element`, then its parent node would be the one representing the `<ul>element.` 
+   2. `previousSibling nextSibling:`These properties find the previous or next sibling of a node if there are siblings.  
+>`<li>element`, it would not have a previous sibling. However, its next sibling would be the node representing the second `<li>`
+  3. `firstChild/lastChild:`These properties find the first or last child of the current element.
+>`<ul> element`, the first child would be the node representing the first `<li> element`,and the lastchild would be the last `<li>`. 
+
+```<Traversing the DOM can be difficult because some browsers add a text node whenever they come across whitespace between elements.>```
+
+- To solve this problem for the  `previousSibling nextSibling`,we use `getElementByld()`.
+>Example:
+
+`//Select the starting point and find its siblings `
+
+`var startltem = document.getElementByid('two');`
+
+`var prevltem startltem.previousSibling;` 
+
+`var nextltem = startitem.nextSibling;` 
+
+`//Change the values of the siblings' class attributes` 
+
+`prevltem.className 'complete ' ;` 
+
+`nextltem.className 'cool';` 
+
+---------------------------
+
+-To solve this problem for the  `firstChild/lastChild` we use the `getElementsByTagName()`.
+>Example:
+
+`//Select the starting point and find its children`
+
+`var startltem = document.getElementsByTagName('ul')[0];` 
+
+`var firstltem = startltem. firstChild;` 
+
+`var lastltem = startitem.lastChild;` 
+
+`//Change the values of the children's class attributes` 
+
+`firstltem.setAttribute('class ' , 'complete');` 
+
+`lastitem.setAttribute('class', ' cool');` 
+
+---------------------------
+
+## **Access/update element content**
+
+- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

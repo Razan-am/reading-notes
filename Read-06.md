@@ -388,10 +388,78 @@ node for the containing (or parent) element in the HTML.
 
 ## **Access/update element content**
 
-- 
+
+**- ACCESS and UPDATE A TEXT NODE WITH `NODEVALUE`**
+   - When you select a text node, you can retrieve or amend the content of it using the `nodeValue property`. 
+>Example:
+
+`document.getElementByid( 'one' ).firstChild.nextSibling. nodeValue;` 
+
+1. The` <li>`element node is selected using the `getElementByid ()` method.
+2. The first child of` <li > `is the` <em>` element.
+3. The text node is the next sibling of that `<em> `element. 
+4. You have the text node and can access its contents using `node Value`. 
+
+**- ACCESSING & CHANGING A TEXT NODE**
+ - First we need to access the element node then the text node,the text node has a property called `nodeValue` which returns the text in that text node,also we use the `nodeValue` property to update the content of a text node.
+>Example:
+
+`//Get second list item` 
+
+`var itemTwo document.getElementByld('two');` 
+
+`//Get its text content` 
+
+`var elText itemTwo.firstChild .nodeValue;` 
+
+`//Change pine nuts to kale`
+
+`elText = elText.replace( ' pine nuts', ' kale ');` 
+
+`//Update the list item` 
+
+`itemTwo .firstChi ld.nodeValue = elText;` 
+
+-----------------------------------------
+
+**- ACCESS & UPDATE TEXT  ONLY WITH `TEXTCONTENT`**
+- textContent property allows you to collect or update just the text that is in the containing element (and its children).
+- It's used to update the content of the element; it replaces the entire
+content of it (including any markup) .
+ >Example:
+
+`//Find first list item` 
+
+`var firstltem = document.getElementByld('one');` 
+
+`//Get value of textContent` 
+
+`var showTextContent = firstitem.textContent;` 
+
+`//Get value of innerText` 
+
+`var showinnerText = firstitem.innerText;` 
+
+```<An overall about the DOM>```
+- The browser represents the page using a `DOM tree`. 
+- `DOM trees` have four types of nodes: `document nodes, element nodes, attribute nodes, and text nodes`. 
+- You can select element nodes by their `id or class attributes, by tag name, or using CSS selector syntax`. 
+- Whenever a `DOM query` can return more than one node, it will always return a` Nodlist`. 
+- From an element node, you can access and update its content using properties such as `textContent and innerHTML` or using DOM manipulation techniques. 
+- An element node can contain multiple text nodes and child elements that are siblings of each other. 
+- In older browsers, implementation of the DOM is inconsistent (and is a popular reason for using jQuery). 
+- Browsers offer tools for viewing the` DOM tree` . 
 
 
 
+@Jon Duckett/[JAVASCRIPT
+](file:///D:/ltuc/code%20102/Javascript_and_jquery_interactive_jon_du.pdff)
+
+
+
+ 
+
+ 
 
 
 

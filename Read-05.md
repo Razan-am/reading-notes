@@ -98,7 +98,9 @@ image if it is not appearing in the web page.
 
 **Adding the colors in CSS**
 
-1. Color : it's specify the color of text inside an element, and its defined by three ways:
+- Using colors in your project it's really bring a life to it. 
+
+**1. Color :** it's specify the color of text inside an element, and its defined by three ways:
    - rgb values
    - hex codes
    - color names
@@ -119,12 +121,12 @@ image if it is not appearing in the web page.
 
 `/* rgb value */`
 
-`p {
+`p {`
 `color: rgb(100,100,90);}`
 
-----------------------------------------------------------
 
-2. Background-color : it's sets the color of the background for that element.
+
+**2. Background-color :** it's sets the color of the background for that element.
 
 >Example:
 
@@ -134,6 +136,416 @@ background-color: rgb(200,200,200);}`
 `h1 {
 background-color: DarkCyan;}`
 
-<img src=../imag/11.PNG width=150 hight=250>
-<img src=../imag/12.PNG width=150 hight=250>
+--------------------------------------------------------------
+
+```<Understanding Color>```
+  - Every color on a computer screen is created by mixing amounts of red, green, and blue. To find the color you want, you can use a color picker.
+
+  ----------------------------------------------------
+
+>`RGB Values:`Values for `red, green, and blue` are expressed as numbers between `0 and 255.` 
+
+>`Hex Codes:`Hex values represent values for `red, green, and blue` in `hexadecimal code.`
+
+>`Color Names:`Colors are represented by `predefined names.`However, they are very limited in number.
+
+>`Contrast:`When picking foreground and background colors, it is important to ensure that there is enough contrast for the text to be legible.
+
+**3.Color  Opacity**
+  - It's allows you to specify the opacity of an element and any of its child elements.The value is a number between `0.0 and 1.0` (so a value of 0.5 is 50% opacity and 0.15 is 15% opacity).Using :
+  - opacity
+  - rgba
+
+>Example:
+
+`p.one {`
+
+`background-color: rgb(0,0,0);`
+
+`opacity: 0.5;}`
+
+`p.two {`
+
+`background-color: rgb(0,0,0);`
+
+`background-color: rgba(0,0,0,0.5);}`
+
+**4. HSL Colors**
+  - It is a y new and intuitive way to specify colors using hue, saturation, and lightness values.
+
+`1. Hue:`it is the colloquial idea of color. In HSL colors, hue is often represented as a color circle where the angle represents the color, although it may also be shown as a slider with values from `0 to 360`.
+
+`2. Saturation:`it is the amount of gray in a color. Saturation is represented as a percentage.`100% is full saturation and 0% is a shade of gray.`
+
+`3. Lightness:`it is the amount of white (lightness) or black (darkness) in a color. Lightness is represented as a percentage.`0% lightness is black, 100% lightness is white, and 50% lightness is normal.`Lightness is sometimes referred to as luminosity.
+
+-----------------------------------------------------
+
+`- Using HSL & HSLA:`The value of the property starts with the letters hsl, followed by individual values inside parentheses for:
+
+  `- hue :`this is expressed as an angle (between 0 and 360 degrees).
+
+  `- saturation :`this is expressed as a percentage.
+
+  `- lightness :`this is expressed as a percentage with 0% being white, 50% being normal, and 100% being black.
+
+>Example:
+
+`body {`
+
+`background-color: #C8C8C8;`
+
+`background-color: hsl(0,0%,78%);}`
+
+`p {`
+
+`background-color: #ffffff;`
+
+`background-color: hsla(0,100%,100%,0.5);}`
+
+```<An overall about colors>```
+- Color not only brings your site to life, but also helps convey the mood and evokes reactions.
+- There are three ways to specify colors in CSS:`RGB values, hex codes, and color names.`
+- Color pickers can help you find the color you want.
+- It is important to ensure that there is enough contrast between any text and the background color (otherwise people will not be able to read your content).
+- CSS3 has introduced an extra value for `RGB colors` to indicate opacity. It is known as`RGBA.`
+- CSS3 also allows you to specify colors as `HSL values`, with an optional opacity value. It is known as `HSLA`.
+
+--------------------------------------------------------
+
+### ***Chapter 12: “Text”***
+
+- Typeface Terminology
+  1. Serif:Serif fonts have extra details on the ends of the main strokes of the letters. These details are known as serifs.
+  2. Sans-Serif:Sans-serif fonts have straight ends to letters, and therefore have a much cleaner design.
+  3. Monospace:Every letter in a monospace (or fixed-width) font is the same width. (Non-monospace fonts have different widths.)
+
+## - Font wiegth:
+  - The font weight not only adds emphasis but can also affect the amount of white space and contrast on a page.
+  - `Wiegth (Light,Medium,Bold,Black).`
+
+>Example:
+
+`.credits {`
+
+`font-weight: bold;}`
+
+------------------------------------------------------
+
+## - Font style:
+  - Italic fonts have a cursive aspect to some of the lettering. Oblique
+font styles take the normal style and put it on an angle.
+   - `Style (Normal,Italic,Oblique)`
+
+>Example:
+
+`.credits {`
+
+`font-style: italic;}`
+
+-------------------------------------------------------------------
+
+## - Font stretch:
+  - In condensed versions of the font, letters are thinner and closer together. In expanded versions they are thicker and further apart. 
+  - `Stretch (Condensed,Regular,Extended)`
+
+  --------------------------------------------
+
+### **For specifying the typeface for your webpage by using the `Font-family`**
+
+>Example:
+
+`body {`
+
+ `font-family: Georgia, Times, serif;}`
+
+ `h1, h2 {`
+
+ `font-family: Arial, Verdana, sans-serif;}`
+
+ `.credits {`
+
+ `font-family: "Courier New", Courier,monospace;}`
+
+ -------------------------------------------------------------
+
+### **For adjust the size of the type by using the `font-size`**
+  - `Units of Type Size: Pixels, Percentages, Ems.`
+
+>Example:
+
+`body {`
+
+`font-family: Arial, Verdana, sans-serif;`
+
+`font-size: 12px;}`
+
+`h1 {`
+
+`font-size: 200%;}`
+
+`h2 {`
+
+`font-size: 1.3em;}`
+
+--------------------------------------------------
+
+### **For using a font even if it is not installed on the computer of the person browsing,by using the `@font-face`**
+
+>Example:
+
+`@font-face {`
+
+`font-family: 'ChunkFiveRegular';`
+
+`src: url('fonts/chunkfive.eot');}`
+
+`h1, h2 {`
+
+`font-family: ChunkFiveRegular, Georgia, serif;}`
+
+-----------------------------------------------------
+
+### **For changing the case of text to uppercase or lowercase orcapitalize, by using the `text-transform`**
+
+>Example:
+
+`h1 {`
+
+`text-transform: uppercase;}`
+
+`h2 {`
+
+`text-transform: lowercase;}`
+
+`.credits {`
+
+`text-transform: capitalize;}`
+
+----------------------------------------------------
+
+### **To control the appearance of the font, bu using the `text-decoration`**
+- It is specify by the following values:
+   -  `none:` this removes any decoration already applied to the text.
+   - `underline:` this adds a line underneath the text.
+   - `overline:` this adds a line over the top of the text.
+   - `line-through:` this adds a line through words.
+   - `blink:` this animates the text to make it flash on and off
+
+>Example:
+
+`.credits {`
+
+`text-decoration: underline;}`
+
+`a {`
+
+`text-decoration: none;}`
+
+--------------------------------------------------------
+
+### **To adjust the text hiegth, by using the `line-height`**
+
+>Example:
+
+`p {`
+
+`line-height: 1.4em;}`
+
+------------------------------------------
+
+### **To control the space between each letter with using the `letter-spacing` and to control the gap between words using the `word-spacing` .**
+
+>Example:
+
+`h1, h2 {`
+
+`text-transform: uppercase;`
+
+`letter-spacing: 0.2em;}`
+
+`.credits {`
+
+`font-weight: bold;`
+
+`word-spacing: 1em;}`
+
+--------------------------------------------------
+
+### **To control the alignment of text,with using the `text-align`**
+- It is n take one of four values:
+  - `left:` this indicates that the text should be left-aligned.
+  - `right:` this indicates that the text should be right-aligned.
+  - `center:` this allows you to center text.
+  - `justify:` this indicates that every line in a paragraph, except the last line, should be set to take up the full width of the containing box.
+
+>Example:
+
+`h1 {`
+
+`text-align: left;}`
+
+`p {`
+
+`text-align: justify;}`
+
+`.credits {`
+
+`text-align: right;}`
+
+-------------------------------------------------
+
+### **For the vertical alignment , with use `vertical-align`**
+- The values it can take are:
+  - baseline
+  - sub
+  - super
+  - top
+  - text-top
+  - middle
+  - bottom
+  - text-bottom
+
+>Example:
+
+`#six-months {`
+
+`vertical-align: text-top;}`
+
+`#one-year {`
+
+`vertical-align: baseline;}`
+
+`#two-years {`
+
+`vertical-align: text-bottom;}`
+
+---------------------------------------------------------
+
+>It is more commonly used with inline elements such as `<img ,<em>, or <strong>` elements. And used with table cells (the `<td> and <th>` elements).
+
+### **To indent the first line of text within an element, with using the `text-indent`.It's be specified in a number of ways but is usually given in pixels or `ems`.**
+
+>Example:
+
+`h1 {`
+
+`background-image: url("images/logo.gif");`
+
+`background-repeat: no-repeat;`
+
+`text-indent: -9999px;}`
+
+`.credits {`
+
+`text-indent: 20px;}`
+
+----------------------------------------------
+
+### **To  create a drop shadow for a text , with using the `text-shadow`**
+
+>Example:
+
+`p.one {`
+
+`background-color: #eeeeee;`
+
+`color: #666666;`
+
+`text-shadow: 1px 1px 0px #000000;}`
+
+`p.two {`
+
+`background-color: #dddddd;`
+
+`color: #666666;`
+
+`text-shadow: 1px 1px 3px #666666;}`
+
+### **To specify different values for the first letter or first line of text inside an element using `first-letter` and `first-line`.**
+
+>Example:
+
+`p.intro:first-letter {`
+
+`font-size: 200%;}`
+
+`p.intro:first-line {`
+
+`font-weight: bold;}`
+
+------------------------------------------------
+
+### **To change the color of links that have been visited, by using `link`, `visited`**
+  - `link:` this allows you to set styles for links that have not yet been
+visited.
+ - `visited:` this allows you to set styles for links that have been clicked on.
+
+>Eaxmple:
+
+`a:link {`
+
+`color: deeppink;`
+
+`text-decoration: none;}`
+
+`a:visited {`
+
+`color: black;}`
+
+`a:hover {`
+
+`color: deeppink;`
+
+`text-decoration: underline;}`
+
+`a:active {`
+
+`color: darkcyan;}`
+
+---------------------------------------------
+
+### **To change the appearance of elements when a user is interacting with them,by using `hover`, `active`, `focus`**
+- `hover:` this is applied when a user hovers over an element with a pointing device such as a mouse.
+- `active`: this is applied when an element is being activated by a user; for example, when a button is being pressed or a link being clicked.
+- `focus:` this is applied when an element has focus. Any element that you can interact with.
+
+>Example:
+
+`input {`
+
+`padding: 6px 12px 6px 12px;`
+
+`border: 1px solid #665544;`
+
+`color: #ffffff;}`
+
+`input.submit:hover {`
+
+`background-color: #665544;}`
+
+`input.submit:active {`
+
+`background-color: chocolate;}`
+
+`input.text {`
+
+`color: #cccccc;}`
+
+`input.text:focus {`
+
+`color: #665544;}`
+
+```<An overall about text>```
+- There are properties to control the choice of font, size, weight, style, and spacing.
+- There is a limited choice of fonts that you can assume most people will have installed.
+- If you want to use a wider range of typefaces there are several options, but you need to have the right license to use them.
+- You can control the space between lines of text, individual letters, and words. Text can also be aligned to the left, right, center, or justified. It can also be indented.
+- You can use pseudo-classes to change the style of an element when a user hovers over or clicks on text, or when they have visited a link.
+
+
+**References:**
+
+@Jon Duckett/[HTML & CSS
+](file:///D:/ltuc/code%20102/HTML%20CSS.pdf)
 

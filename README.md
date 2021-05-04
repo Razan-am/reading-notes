@@ -32,7 +32,7 @@
 |Read-06              |[Read-06](https://razan-am.github.io/reading-notes/Read-06)                   |
 |Read-07              |[Read-07](https://razan-am.github.io/reading-notes/Read07)                   |
 |Read-08              |[Read-08](https://razan-am.github.io/reading-notes/Read08)                   |
-|Read-09              |[Read-09]()                   |
+|Read-09              |[Read-09](https://razan-am.github.io/reading-notes/Read09)                   |
 |Read-10              |[Read-10]()                   |
 |Read-11              |[Read-11]()                   |
 |Read-12              |[Read-12]()                   |

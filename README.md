@@ -37,8 +37,8 @@
 |Read-11              |[Read-11](https://razan-am.github.io/reading-notes/Read11)                   |
 |Read-12              |[Read-12](https://razan-am.github.io/reading-notes/Read12)                   |
 |Read-13              |[Read-13](https://razan-am.github.io/reading-notes/Read13)                   |
-|Read-14a             |[Read-14a]()                  |
-|Read-14b             |[Read-14b]()                  |
+|Read-14a             |[Read-14a](https://razan-am.github.io/reading-notes/Read14a)                  |
+|Read-14b             |[Read-14b](https://razan-am.github.io/reading-notes/Read14b)                  |
 |Read-15              |[Read-15]()                  |
 
 

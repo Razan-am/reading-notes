@@ -1,4 +1,4 @@
-## **Bearer Authorization**
+## **Access Control (ACL)**
 
 ### ***When is Basic Authorization used vs. Bearer Authorization?***
 

@@ -13,6 +13,8 @@
 ### ***Why is role based access control more scalable than discretionary or mandatory access control?***
 
 - Access control measures regulate who can view or use resources in a computing system, often relying on authentication or authorization based on log-in credentials. They are essential to minimizing business risks. Access control systems can be physical, limiting access to buildings, rooms, or servers, or they can be logical, controlling digital access to data, files, or networks.
+
+
 -----------------------------------------------
 
 ## **Terms**
